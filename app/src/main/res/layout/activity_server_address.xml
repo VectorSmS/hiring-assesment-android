@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    tools:context=".ServerAddress">
+
+    <EditText
+        android:id="@+id/serverAddress"
+        android:layout_width="match_parent"
+        android:hint="Server Ip Address"
+        android:text="http://192.168.1.5:3000"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:text="Connect"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
